@@ -14,7 +14,7 @@ inputBox.addEventListener("input", function () {
     profileLink1.textContent = profileURL1;
   } else {
     profileLink1.href = "#";
-    profileLink1.textContent = "リンクはここに表示されます";
+    profileLink1.textContent = "";
 
   }
   const inputValue2 = inputBox.value;
