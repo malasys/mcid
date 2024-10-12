@@ -9,7 +9,7 @@ inputBox.addEventListener("input", function () {
   const inputValue1 = inputBox.value;
 
   if (inputValue1.trim() !== "") {
-    const profileURL1 = `https://ja.namemc.com/profile/${inputValue1}.1`;
+    const profileURL1 = `https://ja.namemc.com/profile/${inputValue1}`;
     profileLink1.href = profileURL1;
     profileLink1.textContent = profileURL1;
   } else {
@@ -25,6 +25,7 @@ inputBox.addEventListener("input", function () {
     profileLink2.textContent = profileURL2;
   } else { 
     profileLink2.href = "#";
+    profileLink2.textContent = "";
 
   }
   const inputValue3 = inputBox.value;
@@ -34,6 +35,7 @@ inputBox.addEventListener("input", function () {
     profileLink3.textContent = profileURL3;
   } else {
     profileLink3.href = "#";
+    profileLink3.textContent = "";
 
   }
   const inputValue4 = inputBox.value;
@@ -43,6 +45,7 @@ inputBox.addEventListener("input", function () {
     profileLink4.textContent = profileURL4;
   } else {
     profileLink4.href = "#";
+    profileLink4.textContent = "";
 
   }
   const inputValue5 = inputBox.value;
@@ -52,6 +55,7 @@ inputBox.addEventListener("input", function () {
     profileLink5.textContent = profileURL5;
   } else {
     profileLink5.href = "#";
+    profileLink5.textContent = "";
 
   }
 
