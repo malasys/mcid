@@ -1,2 +1,2 @@
 # mcid
-https://malasys.github.io/mcid///
+https://malasys.github.io/mcid
