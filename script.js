@@ -46,12 +46,13 @@ inputBox.addEventListener("input", function () {
 
   }
   const inputValue5 = inputBox.value;
-  if (inputValue4.trim() !== "") {
+  if (inputValue5.trim() !== "") {
     const profileURL5 = `https://laby.net/@${inputValue5}`;
     profileLink5.href = profileURL5;
+    profileLink5.textContent = profileURL5;
   } else {
     profileLink5.href = "#";
-    profileLink5.textContent = "";
+
   }
 
 }
