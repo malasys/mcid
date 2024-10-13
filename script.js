@@ -4,6 +4,7 @@ const profileLink2 = document.getElementById("profileLink2");
 const profileLink3 = document.getElementById("profileLink3");
 const profileLink4 = document.getElementById("profileLink4");
 const profileLink5 = document.getElementById("profileLink5");
+const profileLink6 = document.getElementById("profileLink6");
 
 inputBox.addEventListener("input", function () {
   const inputValue1 = inputBox.value;
@@ -56,6 +57,16 @@ inputBox.addEventListener("input", function () {
   } else {
     profileLink5.href = "#";
     profileLink5.textContent = "";
+
+  }
+  const inputValue6 = inputBox.value;
+  if (inputValue6.trim() !== "") {
+    const profileURL6 = `https://crafty.gg/@${inputValue6}`;
+    profileLink6.href = profileURL6;
+    profileLink6.textContent = profileURL6;
+  } else {
+    profileLink6.href = "#";
+    profileLink6.textContent = "";
 
   }
 
