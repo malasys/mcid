@@ -1,5 +1,5 @@
 h1 {
-    color: blue;           
+    color: #ff2a7d;           
     font-size: 32px;       
     text-align: center;    
     font-family: Arial, sans-serif; 
@@ -16,12 +16,12 @@ h1 {
     margin-top: 20px; 
   }
   
-  
   #changeTextButton:hover {
     background-color: #45a049; 
   }
-  
-  
+  body {
+    background-color: #A7CC4D;
+  }  
   .container {
     text-align: center; 
     margin-top: 30px; 
